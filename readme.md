@@ -14,12 +14,12 @@
 ```bash
 python DailyCheck.py username password
 ```
-其中`username`为系统登录学号，`password`为登录密码，比如学号为`20021210899`，密码为`amdYes!!!`，则执行命令
+其中`username`为系统登录学号，`password`为登录密码，比如学号为`20021210xxx`，密码为`amdYes!!!`，则执行命令
 ```bash
-python DailyCheck.py 20021210899 amdYes!!!
+python DailyCheck.py 20021210xxx amdYes!!!
 ```
 若密码中含有空格，比如密码为`amd Yes!!!`，请将密码用双引号概括起来，执行命令
 ```bash
-python DailyCheck.py 20021210899 "amd Yes!!!"
+python DailyCheck.py 20021210xxx "amd Yes!!!"
 ```
 可将该脚本挂到系统定时任务中，实现自动填报
